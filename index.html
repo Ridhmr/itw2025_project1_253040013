@@ -3,21 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Bebas+Neue&family=Nabla&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&display=swap" rel="stylesheet" />
+    <title>My Portfolio RidhoMR</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>RIDHO MUHAMMAD RASYA</h1>
-    <!-- NAVBAR -->
+    <nav>
+      <div class="logo">
+        <h4>my portofolio</h4>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Motivasi">Motivasi</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#Hobby">Hobby</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-    <nav>PRODUCT</nav>
-    <ul>
-      <li>ido</li>
-      <li>UJI</li>
-      <li>PSJST</li>
-      <li>MADEP</li>
-      <li>XTC</li>
-      <li>BGZ</li>
-    </ul>
-    <!-- AKHIR NAVBAR -->
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="container-home">
+        <img src="img/WhatsApp Image 2025-12-17 at 18.31.35_f072d554.jpg" class="potoprofil" alt="RidhoMR" />
+        <h2>RIDHO MR</h2>
+        <h3>STUDENT|WEB LEANER</h3>
+        <p>Saya adalah Mahasiswa unpas 2025.</p>
+      </div>
+    </section>
+
+    <section id="Motivasi">
+      <div class="container">
+        <h2>MOTIVASI HIDUP</h2>
+        <img src="img/WhatsApp Image 2025-10-18 at 20.31.19_ba96a513.jpg" alt="RidhoMR" />
+        <p>1. Tidak ada kesuksesan instan. Ada proses panjang, kegagalan, dan bangkit kembali. Dan saya siap melewati semuanya demi mimpi menjadi Ceo.</p>
+        <p>2. Bos muda sejati tidak hanya mengejar uang, tapi membangun sistem, tim, dan masa depan.”</p>
+        <p>3. Menjadi bos muda bukan berarti paling pintar, tapi paling mau belajar, paling tahan gagal, dan paling konsisten.”</p>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>MY PROJECT</h2>
+        <img src="img/WhatsApp Image 2025-10-18 at 20.31.19_ba96a513.jpg" alt="olahraga" class="potoke2" />
+
+        <p>Tugas website Portfolio (Vanilla)</p>
+      </div>
+    </section>
+
+    <section id="Hobby">
+      <div class="container">
+        <h2>HOBBY</h2>
+        <img src="img/000_44ZL3LH_1.jpg" alt="potoke4" />
+        <p>1. Main Game</p>
+        <p>2. Sepak Bola</p>
+        <p>3.Futsal</p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Nama" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Pesan" rows="5" required></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="js/ido.js"></script>
   </body>
 </html>
